@@ -12,9 +12,9 @@ header { display: flex; justify-content: center; align-items: center; align-item
          text-transform: uppercase; font: 20px 'Stint Ultra Condensed';}
   .title {margin-bottom: 40px; font: 60px 'Stint Ultra Condensed'; text-transform: uppercase;}
   .logo { height: 63px;} 
- .nav-link{ background-color: #150e0e; }
+ .nav-link{ background-color: #f8f8f800; text-decoration-color: #150e0e; }
 
 
 .navbarNav {font-style: italic; background-position: 80%; font-size: xx-large;}  
-.footer { background-color: aqua; font-style: normal; text-align: left; height: 8cm; }
+.footer { background-color: aqua; font-style: normal; text-align: left; height: 4cm; }
 
