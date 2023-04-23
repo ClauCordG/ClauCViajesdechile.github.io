@@ -1,9 +1,8 @@
-body { background: fixed;
-background-color:aquamarine;}
+body { background-color:aquamarine;}
 #navbarNav li {
-    margin-left: 2em;    font-style: italic; background-position: 80%; 
+    margin-left: 2em;    font-style: italic; background-position: 80%; font-size: large; font-display:unset;
 }  
-#footer li { background-color: aqua;} 
+#footer li { background-color: aqua; font-style: normal;} 
 
 
 
