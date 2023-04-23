@@ -5,12 +5,12 @@ header { display: flex; justify-content: center; align-items: center; }
 
 .navbar { display: flex; justify-content: center; align-items: center; background: #abcdef; }
 .navbar { height: 63px; background: #2c3e50; border-bottom: 1px dashed #3498db;}
-    .navbar a { padding: 0 20px; color: #fff; text-decoration: none;
+    .navbar a { padding: 0 20px; color: #ffffff00; text-decoration: none;
          text-transform: uppercase; font: 20px 'Stint Ultra Condensed';}
   .title {margin-bottom: 40px; font: 60px 'Stint Ultra Condensed'; text-transform: uppercase;}
+  .navbar-brand { height: 63px;} 
   
-#navbarNav li {
-    margin-left: 2em;    font-style: italic; background-position: 80%; font-size: large; font-display:unset;
-}  
-#footer li { background-color: aqua; font-style: normal;} 
+#navbarNav li {     margin-left: 2em;    font-style: italic;
+     background-position: 80%; font-size: large; font-display:unset;}  
+#footer li { background-color: aqua; font-style: normal; } 
 
