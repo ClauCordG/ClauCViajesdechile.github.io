@@ -16,5 +16,5 @@ header { display: flex; justify-content: center; align-items: center; align-item
 
 
 .navbarNav {font-style: italic; background-position: 80%; font-size: xx-large;}  
-.footer { background-color: aqua; font-style: normal; text-align: left; height: 4cm; }
+.footer { background-color: aqua; font-style: normal; text-align: left; height: 2,5cm; font-size: medium; }
 
