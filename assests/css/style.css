@@ -1,6 +1,10 @@
 body { background: fixed;
 background-color:aquamarine;}
 #navbarNav li {
-    margin-left: 2em;
-
+    margin-left: 2em;    font-style: italic; background-position: 80%; 
 }  
+#footer li { background-color: aqua;} 
+
+
+
+{ } 
