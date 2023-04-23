@@ -10,7 +10,6 @@ header { display: flex; justify-content: center; align-items: center; align-item
   .title {margin-bottom: 40px; font: 60px 'Stint Ultra Condensed'; text-transform: uppercase;}
   .logo { height: 63px;} 
   
-.navbarNav {     margin-left: 2em;    font-style: italic;
-     background-position: 80%; font-size: large; font-display:unset;}  
-.footer { background-color: aqua; font-style: normal; } 
+.navbarNav {font-style: italic; background-position: 80%; font-size: xx-large;}  
+.footer { background-color: aqua; font-style: normal; text-align: left; }
 
