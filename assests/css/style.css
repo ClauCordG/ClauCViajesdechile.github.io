@@ -1,2 +1,6 @@
 body { background: fixed;
 background-color:aquamarine;}
+#navbarNav li {
+    margin-left: 2em;
+
+}  
