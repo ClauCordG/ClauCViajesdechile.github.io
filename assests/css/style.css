@@ -10,9 +10,9 @@ header { display: flex; justify-content: center; align-items: center; align-item
  .nav-link{ background-color: #f8f8f800; text-decoration-color: #150e0e; }
 .navbarNav {font-style: italic; background-position: 100%; font-size: xx-large;} 
 .list-services {align-items: center; display: inline;position: relative; line-height: normal; flex-flow: column; }
-.list-services figure { position: relative; width: 150px; height: 190px;}
+.list-services figure { position: relative; width: 150px; height: 190px; display: inline-flex; justify-content: center; align-items: center}
 .list-services { align-items: center; justify-content: center;}
-  .list-services li {display: inline;position: relative; flex-flow: column-reverse;  }
+  .list-services li {display: inline}
 .Fig{display: inline; position:relative; justify-content: center;height: 20cm; flex-flow: column-reverse; }
 
 
