@@ -1,11 +1,5 @@
-
-body 
-{ 
-    background-color:aquamarine;
-text-align: center; 
-}
+body { background-color:aquamarine; text-align: center; }
 header { display: flex; justify-content: center; align-items: center; align-items:normal; }
-
 .navbar { display: flex; justify-content: center; align-items: center; background: #abcdef; }
 .navbar { height: 83px; background: #0758a9; border-bottom: 1px dashed #3498db;}
     .navbar a { padding: 0 20px; color: #150e0e; text-decoration: none;
@@ -13,8 +7,11 @@ header { display: flex; justify-content: center; align-items: center; align-item
   .title {margin-bottom: 40px; font: 60px 'Stint Ultra Condensed'; text-transform: uppercase;}
   .logo { height: 63px;} 
  .nav-link{ background-color: #f8f8f800; text-decoration-color: #150e0e; }
+.navbarNav {font-style: italic; background-position: 80%; font-size: xx-large;} 
+.list-services {display: flex; align-items: center; justify-content: center;}
+.list-services figure { display: flex; justify-content: center; align-items: center; 
+    flex-flow: column;}
+.footer { background-color: aqua; font-style: normal; text-align: left; height: 2,5cm;
+     font-size: medium; }
 
-
-.navbarNav {font-style: italic; background-position: 80%; font-size: xx-large;}  
-.footer { background-color: aqua; font-style: normal; text-align: left; height: 2,5cm; font-size: medium; }
 
