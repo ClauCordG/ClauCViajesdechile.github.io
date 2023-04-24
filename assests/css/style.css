@@ -20,7 +20,8 @@ header { display: flex; justify-content: center; align-items: center; align-item
     column-rule:4px dotted gray;
  }
 .title { align-items: center; justify-content: center;}
-
+.somos { display: flex;}
+.des { display: flex;}
 .footer { background-color: aqua; font-style: normal; text-align: left; height: 4cm;
      font-size: medium; }
 
