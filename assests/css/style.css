@@ -10,6 +10,7 @@ header { display: flex; justify-content: center; align-items: center; align-item
  .nav-link{ background-color: #f8f8f800; text-decoration-color: #150e0e; }
 .navbarNav {font-style: italic; background-position: 100%; font-size: xx-large;} 
 .list-services {align-items: center; display: inline;position: relative; line-height: normal; flex-flow: column; }
+.list-services figure { position: relative; width: 150px; height: 150px; }
 .Fig{align-items: center; display: inline; position: relative; justify-content: center;text-align: justify; height: 20cm; line-height: normal;flex-flow: column-reverse; }
 
 
