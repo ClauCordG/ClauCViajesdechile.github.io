@@ -14,7 +14,7 @@ header { display: flex; justify-content: center; align-items: center; align-item
 .list-services { align-items: center; justify-content: center;}
   .list-services li {display: inline;column-count: 4;}
 .Fig{display: inline; position:relative; justify-content: center;height: 20cm; flex-flow: column-reverse; }
-#colum{
+#columas{
     column-count:4;
     column-gap:20px;
     column-rule:4px double black;
