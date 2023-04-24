@@ -11,7 +11,9 @@ header { display: flex; justify-content: center; align-items: center; align-item
 .list-services {display: flex; align-items: center; justify-content: center;}
 .list-services figure { display: flex; justify-content: center; align-items: center;flex-flow: column;}
     .list-services {align-items: center; display: inline;position: relative; line-height: normal; flex-flow: column; }
-.footer { background-color: aqua; font-style: normal; text-align: left; height: 2,5cm;
+.Fig{display: flex; align-items: center; justify-content: center;text-align: justify; }
+
+    .footer { background-color: aqua; font-style: normal; text-align: left; height: 2,5cm;
      font-size: medium; }
 
 
