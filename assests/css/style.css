@@ -12,7 +12,7 @@ header { display: flex; justify-content: center; align-items: center; align-item
 .list-services {align-items: center; display: inline;position: relative; line-height: normal; flex-flow: column; }
 .list-services figure { position: relative; width: 150px; height: 190px; display: inline-flex; justify-content: center; align-items: center}
 .list-services { align-items: center; justify-content: center;}
-  .list-services li {display: inline}
+  .list-services li {display: inline; column-rule-style: calc(4);}
 .Fig{display: inline; position:relative; justify-content: center;height: 20cm; flex-flow: column-reverse; }
 
 
