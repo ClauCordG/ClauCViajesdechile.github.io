@@ -9,8 +9,8 @@ header { display: flex; justify-content: center; align-items: center; align-item
  .nav-link{ background-color: #f8f8f800; text-decoration-color: #150e0e; }
 .navbarNav {font-style: italic; background-position: 80%; font-size: xx-large;} 
 .list-services {display: flex; align-items: center; justify-content: center;}
-.list-services figure { display: flex; justify-content: center; align-items: center; 
-    flex-flow: column;}
+.list-services figure { display: flex; justify-content: center; align-items: center;flex-flow: column;}
+    .list-services {align-items: center; display: inline;position: relative; line-height: normal; flex-flow: column; }
 .footer { background-color: aqua; font-style: normal; text-align: left; height: 2,5cm;
      font-size: medium; }
 
