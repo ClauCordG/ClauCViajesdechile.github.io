@@ -12,8 +12,8 @@ header { display: flex; justify-content: center; align-items: center; align-item
 .list-services {align-items: center; display: inline;position: relative; line-height: normal; flex-flow: column; }
 .list-services figure { position: relative; width: 150px; height: 150px; }
 .list-services {display: flex; align-items: center; justify-content: center;}
-  .list-services figure { display: flex; justify-content: center; align-items: center; flex-flow: column-reverse;}
-.Fig{display: inline; position: relative; justify-content: center;text-align: justify; height: 20cm; line-height: normal;flex-flow: column-reverse; }
+  .list-services figure { display: flex; justify-content: center; align-items: center}
+.Fig{display: inline; position:inherit; justify-content: center;height: 20cm; l;flex-flow: column-reverse; }
 
 
 
