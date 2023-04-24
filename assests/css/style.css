@@ -1,7 +1,7 @@
 body { background-color:aquamarine; text-align: center; }
 header { display: flex; justify-content: center; align-items: center; align-items:normal; }
-.navbar { display: flex; justify-content: center; align-items: center; background: #abcdef; }
-.navbar { height: 83px; background: #0758a9; border-bottom: 1px dashed #3498db;}
+.navbar { display: flex; background: #abcdef; }
+.navbar { height: 100px; background: #0758a9; border-bottom: 1px dashed #3498db;}
     .navbar a { padding: 0 20px; color: #150e0e; text-decoration: none;
          text-transform: uppercase; font: 20px 'Stint Ultra Condensed';}
   .title {margin-bottom: 40px; font: 60px 'Stint Ultra Condensed'; text-transform: uppercase;}
