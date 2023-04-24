@@ -38,7 +38,7 @@ header { display: flex; justify-content: center; align-items: center; align-item
  }
 
 
-.footer { background-color: aqua; font-style: normal; text-align: left; height: 4cm;
+.footer { background-color: aqua; font-style: normal; text-align: left; height: 4cm; width: max-content;
      font-size: medium; }
 
 
