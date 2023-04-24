@@ -44,52 +44,49 @@
             </div>
         </nav>
     </header>
-
-    <div>
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assests/img/carousel1.jpg" class="d-block w-100" alt="c1">
-                </div>
-                <div class="carousel-item">
-                    <img src="assests/img/carousel2.jpg" class="d-block w-100" alt="c2">
-                </div>
-                <div class="carousel-item">
-                    <img src="assests/img/carousel3.jpg" class="d-block w-100" alt="c3">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
+       
     <main>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="assests/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="assests/img/card2.jpg" class="d-block w-100" alt="carousel2">
+              </div>
+              <div class="carousel-item">
+                <img src="assests/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
         <div class="somos">
             <section class="content Quien">
                 <h2 class="title">Quienes Somos</h2>
 
-                <div class="columna-uno">
-                    <h2>Columna Uno</h2>
-                    <p>Contenido de la columna uno aquí...</p>
+                <div class="row">
+                    <div class="col">
+                      <h2>Primera Fila</h2>
+                      <p>Texto de la primera fila</p>
+                    </div>
+                    <div class="col">
+                      <h2>Segunda Fila</h2>
+                      <p>Texto de la segunda fila</p>
+                    </div>
+                    <div class="col">
+                      <h2>Tercera Fila</h2>
+                      <p>Texto de la tercera fila</p>
+                    </div>
                   </div>
                   
-                  <div class="columna-dos">
-                    <h2>Columna Dos</h2>
-                    <p>Contenido de la columna dos aquí...</p>
-                  </div>
-                  
-                  <div class="columna-tres">
-                    <h2>Columna Tres</h2>
-                    <p>Contenido de la columna tres aquí...</p>
-                  </div>
                                
 
                 
@@ -99,27 +96,32 @@
         <div class="des">
             <section class="Destacados">
                 <h2 class="title">Destacados</h2>
-                <div class="row">
-                    <div class="column">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-md-3">
                         <img src="assests/img/card1.jpg" alt="Imagen 1">
-
-                        <p>Contenido de la columna 1</p>
-                    </div>
-                    <div class="column">
+                        <p>Texto de la primera fila</p>
+                        <!-- Contenido de la primera fila -->
+                      </div>
+                      <div class="col-md-3">
                         <img src="assests/img/card2.jpg" alt="Imagen 2">
-                      
-                        <p>Contenido de la columna 2</p>
-                    </div>
-                    <div class="column">
+                        <p>Texto de la segunda fila</p>
+                        <!-- Contenido de la segunda fila -->
+                      </div>
+                      <div class="col-md-3">
                         <img src="assests/img/card3.jpg" alt="Imagen 3">
-                       
-                        <p>Contenido de la columna 3</p>
-                    </div>
-                    <div class="column">
+                        <p>Texto de la tercera fila</p>
+                        <!-- Contenido de la tercera fila -->
+                      </div>
+                      <div class="col-md-3">
                         <img src="assests/img/card4.jpg" alt="Imagen 4">
-                       
-                        <p>Contenido de la columna 4</p>
+                        <p>Texto de la cuarta fila</p>
+                        <!-- Contenido de la cuarta fila -->
+                      </div>
                     </div>
+                  </div>
+                  
+                  
                 </div>
                 
         <section class="content Contacto">
