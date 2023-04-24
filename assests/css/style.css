@@ -1,5 +1,5 @@
 body { background-color:aquamarine; text-align: center; }
-header { display: flex; justify-content: center; align-items: center; align-items:normal; }
+header { display: flex; align-items:normal; }
 .navbar { display: flex; background: #abcdef; }
 .navbar { height: 100px; background: #0758a9; border-bottom: 1px dashed #3498db;}
     .navbar a { padding: 0 20px; color: #150e0e; text-decoration: none;
