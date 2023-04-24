@@ -35,24 +35,40 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto px-5"> <!-- Bootstrap -->
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="#Inicio">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quienes somos</a>
+                            <a class="nav-link" href="#Quienes Somos">Quienes somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Destacados</a>
+                            <a class="nav-link" href="#Destacados">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="#Contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('a[href^="#"]').on('click', function(event) {
+            var target = $(this.getAttribute('href'));
+            if( target.length ) {
+                event.preventDefault();
+                $('html, body').stop().animate({
+                    scrollTop: target.offset().top - 50
+                }, 1000);
+            }
+        });
+    });
+</script>
+
     </header>
        
     <main>
+        <section id="Inicio" class="content Inicio">
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
@@ -82,24 +98,24 @@
               wrap: true
             })
           </script>
-          
+         </section>
 
         <div class="somos">
-            <section class="content Quien">
+            <section id="Quienes Somos" class="content Quien">
                 <h2 class="title">Quienes Somos</h2>
 
                 <div class="row">
                     <div class="col">
-                      <h2>Primera Fila</h2>
-                      <p>Texto de la primera fila</p>
+                      <h2>Historia</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem animi id exercitationem, libero beatae deserunt soluta iste repellat distinctio! Reiciendis, assumenda! In neque quaerat ea sed obcaecati nostrum iure tempora!</p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eos deleniti in, corporis fugit cum quis aliquid laboriosam, eius laudantium perspiciatis cupiditate doloribus dolores illum fugiat esse ipsum officia vero.
                     </div>
                     <div class="col">
-                      <h2>Segunda Fila</h2>
-                      <p>Texto de la segunda fila</p>
+                      <h2>Misión</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illo inventore veritatis et iusto rerum repudiandae, impedit nihil sint asperiores, suscipit placeat cupiditate dolor, ipsum minima eum consequatur. Neque, enim?</p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem tempora, deleniti repudiandae consequuntur reprehenderit, explicabo perspiciatis nam rem architecto animi earum officiis ipsum nulla beatae. Laborum quibusdam ducimus ad facilis?
                     </div>
                     <div class="col">
-                      <h2>Tercera Fila</h2>
-                      <p>Texto de la tercera fila</p>
+                      <h2>Visión</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae error voluptas optio, nihil quis ipsam ex est, eius odit mollitia earum provident! Laudantium eligendi odit aut eveniet veritatis illo dolorum!</p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa et accusantium iure ipsa, aperiam dicta perspiciatis quod maiores aliquam praesentium amet eligendi eum accusamus officiis nisi? Nemo, possimus corrupti. Impedit?
                     </div>
                   </div>
                   
@@ -110,28 +126,28 @@
         </div>
 
         <div class="des">
-            <section class="Destacados">
+            <section id="Destacados" class="Destacados">
                 <h2 class="title">Destacados</h2>
                 <div class="container">
                     <div class="row">
                       <div class="col-md-3">
                         <img src="assests/img/card1.jpg" alt="Imagen 1">
-                        <p>Texto de la primera fila</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur neque eveniet praesentium temporibus distinctio nesciunt molestias qui ad rem nulla, perspiciatis, voluptas velit rerum dolore accusantium animi id exercitationem labore?</p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque deleniti doloribus ad laboriosam sit aut repellat numquam laborum dignissimos? Suscipit consequuntur, nam dicta culpa reiciendis sunt quis error illo!
                         <!-- Contenido de la primera fila -->
                       </div>
                       <div class="col-md-3">
                         <img src="assests/img/card2.jpg" alt="Imagen 2">
-                        <p>Texto de la segunda fila</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ab deserunt sequi debitis enim quo iusto earum iure ducimus dolor obcaecati tempora dolorem, temporibus, esse, tenetur commodi aspernatur asperiores deleniti!</p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, hic iusto? Cum quidem distinctio quibusdam. Similique at fuga accusamus repudiandae temporibus aut vitae illo, doloribus distinctio quo eaque unde id.
                         <!-- Contenido de la segunda fila -->
                       </div>
                       <div class="col-md-3">
                         <img src="assests/img/card3.jpg" alt="Imagen 3">
-                        <p>Texto de la tercera fila</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium ducimus perferendis amet provident vero dignissimos. Eos iste adipisci quibusdam veritatis tempora. Praesentium debitis dolore rem possimus, architecto sed unde optio.</p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero in explicabo placeat optio nulla voluptate sunt molestiae labore distinctio expedita dolorem fugit similique, voluptatem nam laboriosam, architecto debitis aperiam eligendi.
                         <!-- Contenido de la tercera fila -->
                       </div>
                       <div class="col-md-3">
                         <img src="assests/img/card4.jpg" alt="Imagen 4">
-                        <p>Texto de la cuarta fila</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sequi, rerum pariatur in ad odit nostrum autem molestias aliquid distinctio nam recusandae magni laudantium, rem, ipsa itaque id ratione. Architecto.</p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nobis officia quidem eveniet quam incidunt nemo ex molestiae. Debitis id rem culpa fugiat animi tempora in, ex non necessitatibus dolor.
                         <!-- Contenido de la cuarta fila -->
                       </div>
                     </div>
@@ -140,7 +156,7 @@
                   
                 </div>
                 
-        <section class="content Contacto">
+        <section id="Contacto" class="content Contacto">
             <h2 class="title">Contactanos</h2>
             <form action="enviar.php" method="post">
                 <label for="nombre">Nombre:</label>
