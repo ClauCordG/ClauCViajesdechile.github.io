@@ -11,18 +11,12 @@ header { display: flex; justify-content: center; align-items: center; align-item
 .navbarNav {font-style: italic; background-position: 100%; font-size: xx-large;} 
 .list-services {align-items: center; display: inline;position: relative; line-height: normal; flex-flow: column; }
 .list-services figure { position: relative; width: 150px; height: 190px; display: inline-flex; justify-content: center; align-items: center}
-.list-services { align-items: center; justify-content: center;}
-  .list-services li {display: inline;column-count: 4;}
-.Fig{display: inline; position:relative; justify-content: center; flex-flow: column-reverse; }
-#columnas{
-    column-count:4;
-    column-gap:20px;
-    column-rule:4px dotted gray;
- }
+.list-services li {display: inline;column-count: 4;}
+.Fig{display: inline; position:relative; justify-content: center; font-size: 15cm; }
 .title { align-items: center; justify-content: center;}
-.somos { display: flex; justify-content: center;}
-.des { display: flex; justify-content: center;}
+.somos { display: flex; justify-content: center; column-count: 3;}
+.des { display: flex; justify-content: center; margin: auto; column-count: 4; column-gap: 20px;}
 .footer { background-color: aqua; font-style: normal; text-align: left; height: 4cm;
-     font-size: medium; }
+     font-size: medium; font-size: 3cm; text-decoration-color: #150e0e; }
 
 
