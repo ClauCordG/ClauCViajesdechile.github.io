@@ -13,7 +13,7 @@ header { display: flex; justify-content: center; align-items: center; align-item
 .list-services figure { position: relative; width: 150px; height: 150px; }
 .list-services {display: flex; align-items: center; justify-content: center;}
   .list-services figure { display: flex; justify-content: center; align-items: center}
-.Fig{display: inline; position:inherit; justify-content: center;height: 20cm; l;flex-flow: column-reverse; }
+.Fig{display: inline; position:relative; text-decoration-line: line-through; justify-content: center;height: 20cm; l;flex-flow: column-reverse; }
 
 
 
