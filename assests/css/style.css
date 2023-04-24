@@ -68,7 +68,7 @@ header { display: flex; justify-content: center; align-items: center; align-item
   
 
 form { display: flex; justify-content: center;}
-.footer { background-color: aqua; font-style: normal; text-align: left; height: 3cm;
-     font-size: medium; font-size: 1,8cm; text-decoration-color: #150e0e; }
+.footer { background-color: aqua; font-style:italic; text-align: left; height: 3cm;
+     font-size: 2cm; text-decoration-color: #150e0e; }
 
 
