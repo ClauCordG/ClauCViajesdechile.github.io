@@ -10,10 +10,10 @@ header { display: flex; justify-content: center; align-items: center; align-item
  .nav-link{ background-color: #f8f8f800; text-decoration-color: #150e0e; }
 .navbarNav {font-style: italic; background-position: 100%; font-size: xx-large;} 
 .list-services {align-items: center; display: inline;position: relative; line-height: normal; flex-flow: column; }
-.list-services figure { position: relative; width: 150px; height: 150px; }
-.list-services {display: flex; align-items: center; justify-content: center;}
+.list-services figure { position: relative; width: 150px; height: 190px; }
+.list-services {display:inline-flexbox; align-items: center; justify-content: center;}
   .list-services figure { display: flex; justify-content: center; align-items: center}
-.Fig{display: inline; position:relative; text-decoration-line: line-through; justify-content: center;height: 20cm; flex-flow: column-reverse; }
+.Fig{display: inline; position:relative; justify-content: center;height: 20cm; flex-flow: column-reverse; }
 
 
 
